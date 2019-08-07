@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/contactPhoneListLWC": [
+                "contactPhoneListLWC/contactPhoneListLWC.js"
+            ],
+            "c/contactQuickEditLWC": [
+                "contactQuickEditLWC/contactQuickEditLWC.js"
+            ],
+            "c/ContactPhoneListLWC": [
+                "ContactPhoneListLWC/ContactPhoneListLWC.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

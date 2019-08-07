@@ -1,0 +1,16 @@
+<!--
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <lightning:recordEditForm recordId="{!v.recordId}" objectApiName="Contact">
+        <lightning:messages />
+        <lightning:inputField fieldName="Name" />
+        <lightning:inputField fieldName="Title" />
+        <lightning:inputField fieldName="Email" />
+        <lightning:button class="slds-m-top_small" type="submit" name="update" label="Update" />
+    </lightning:recordEditForm>
+</aura:component>
+-->
+
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="fields" type="String[]" default="['Name','Title','Email']" />
+    <lightning:recordForm recordId="{!v.recordId}" objectApiName="Contact" fields="{!v.fields}" columns="1" mode="edit"/>
+</aura:component>
