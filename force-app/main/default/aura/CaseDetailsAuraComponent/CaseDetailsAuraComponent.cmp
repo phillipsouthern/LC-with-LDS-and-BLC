@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+        <aura:attribute 
+            name="casefields" type="String[]" 
+            default="CaseNumber,Subject,AccountId,OwnerId,Description"/>
+
+    <lightning:recordForm
+        recordId="{!v.recordId}"
+        objectApiName="Case"
+        fields="{!v.casefields}"
+        columns="1"
+        mode="readonly" 
+    />
+
+</aura:component>	

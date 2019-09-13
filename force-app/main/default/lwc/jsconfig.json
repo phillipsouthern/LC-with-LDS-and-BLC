@@ -3,14 +3,17 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/caseDetailsWebComponent": [
+                "caseDetailsWebComponent/caseDetailsWebComponent.js"
+            ],
             "c/contactPhoneListLWC": [
                 "contactPhoneListLWC/contactPhoneListLWC.js"
             ],
             "c/contactQuickEditLWC": [
                 "contactQuickEditLWC/contactQuickEditLWC.js"
             ],
-            "c/ContactPhoneListLWC": [
-                "ContactPhoneListLWC/ContactPhoneListLWC.js"
+            "c/contactLocationsWebComponent": [
+                "contactLocationsWebComponent/contactLocationsWebComponent.js"
             ]
         }
     },
