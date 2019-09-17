@@ -11,3 +11,5 @@ public class contactLocationsController
                     AND MailingPostalCode != null];
     }
 }
+
+

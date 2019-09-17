@@ -6,14 +6,14 @@
             "c/caseDetailsWebComponent": [
                 "caseDetailsWebComponent/caseDetailsWebComponent.js"
             ],
+            "c/contactLocationsWebComponent": [
+                "contactLocationsWebComponent/contactLocationsWebComponent.js"
+            ],
             "c/contactPhoneListLWC": [
                 "contactPhoneListLWC/contactPhoneListLWC.js"
             ],
             "c/contactQuickEditLWC": [
                 "contactQuickEditLWC/contactQuickEditLWC.js"
-            ],
-            "c/contactLocationsWebComponent": [
-                "contactLocationsWebComponent/contactLocationsWebComponent.js"
             ]
         }
     },
